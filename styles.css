@@ -1,0 +1,425 @@
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFF9900;
+	background-image:url("images/Background.jpg");
+	background-size:cover;
+	position:relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Style for container centers the page and sets the element width */
+#container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #cfcfc0;
+	border-radius: 10px;
+	box-shadow: 12px 12px 12px #404040;
+	text-align: center;
+}
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.3 em;
+	font-weight: bold;
+	text-align: center;
+	
+	padding: 15px;
+	
+	border-top: 5px dashed #000000;
+	border-left: 5px dashed #000000;
+	border-right: 5px dashed #000000;
+	border-bottom: 5px dashed #000000;
+	
+	margin-bottom: 10px;
+	border-radius: 12px;
+	
+	
+	background-color:#EBD0AC;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #000D44;
+	border-radius: 0.6em;
+	text-align: left;
+	border-top: 5px solid #FFFFFF;
+	border-left: 5px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+	list-style-type: none;
+	margin-bottom: 10px;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #cfcfc0;
+	box-shadow: 12px 12px 12px #404040;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: 1 em;
+	text-align: center;
+	margin-top: 20px;
+	color:red;
+	background-color:#C8C8C8;
+	border-top: 5px dotted #000000;
+	border-left: 5px dotted #000000;
+	border-right: 5px dotted #000000;
+	border-bottom: 5px dotted #000000;
+	
+}
+
+.pictures {
+	float: left;
+	padding-right: 20px;
+}
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+.mobile {
+	display: none;
+
+}
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+/* Style rule for label element */
+label {
+	display: block;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+	list-style-type: none;
+}
+
+/* Style rule for chkbx class */
+.chkbx {
+	display: inline-block;
+}
+table {
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* Style specifies border and padding for th and td elements */
+th, td {
+	border: 0.1em solid #000000;
+	padding: 1em;
+}
+
+/* Style for th element */
+th {
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+}
+
+/* Style for caption element */
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+/* Style rule for the video class */
+.video {
+	padding: 1em;
+	text-align: center;
+}
+
+/* Style rule for video element */
+video {
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 660px) {
+	
+/* Style specifies a horizontal display for navigation links */
+nav li {
+	background-color: #000D44;
+	border-radius: 0.6em;
+	border-top: 5px solid #FFFFFF;
+	border-left: 5px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+	list-style-type: none;
+	margin: 10em;
+	padding: 80 em;
+	display: inline;
+	
+	margin-left: 0%;
+	margin-right: 0%;
+
+
+
+
+	width: 50%;
+	white-space: nowrap;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+/* Style specifies to hide the mobile class */
+.mobile {
+	display: none;
+}
+
+
+
+/* Style specifies a display, float, and padding for the equip class */
+.pictures {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}	
+}
+/* Style for table element */
+table {
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* Style specifies border and padding for th and td elements */
+th, td {
+	border: 0.1em solid #000000;
+	padding: 1em;
+}
+
+/* Style for th element */
+th {
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+}
+
+/* Style for caption element */
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+/* Style rule label element */
+label {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+
+/* Style rule for btn class */
+.btn {
+	margin-left: 12em;
+}
+	
+}
+
+@media only screen and (min-width: 920px) {
+	
+/* Style specifies a width for container */
+#container {
+	width: 100%;
+}	
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-radius: 0;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;
+}
+
+nav li a:visited {
+	color: #FFFF99;
+}
+
+nav li a:hover {
+	color: #FFFF00;
+	font-style: italic;
+}
+
+/* Style specifies border, shadow, margin, and padding for main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* Style specifies bottom padding for the section element */
+section {
+	padding-bottom: 3em;
+}
+
+/* Style for h1 element within the section element */
+section h1 {
+	text-align:left;
+}
+
+/* Style for anchor element within the section element */
+section a {
+	background-color: transparent;
+	color: #1D1D1C;
+	font-weight: normal;
+	padding: 0;
+	text-decoration: underline;
+}
+/* Style for article element */
+article {
+	background-color: #C1D9CA;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+	
+	
+}
+main article h2 {
+	            text-align: left;
+				color:#307d7e;
+}
+/* Style for image element contained within the main article element */
+main article img {
+	border: solid 0.3em #008080;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for paragraph element contained within the main article element */
+main article p {
+	color: #000000;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+}
+
+/* Style for unordered list element contained within the main article element */
+main article ul {
+	text-align: left;
+	
+}
+
+/* Style for aside element */
+aside {
+	background-color:#FFFFFF;
+	border-radius: 0 5em 5em 5em;
+	box-shadow: 1em 1em 1em #4C4F4D;
+	padding: 1.5em;
+	margin: 1em;
+}
+ article footer {
+	background-color: #2A2A2A;
+	margin-top: -0.2em;
+	padding: 2em;
+	
+}
+ h3 { 
+     color: #033e3e;
+
+}
+/* Style for table element */
+table {
+	background-color: #FFFFFF;
+	width: 85%;
+}
+
+/* Style for caption element */
+caption {
+	color: #FFFFFF;
+}
+
+/* Style rule for form element */
+form {
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+
+/* Style rule for paragraph with form element */
+form p {
+	color: #000000;
+}
+
+}
